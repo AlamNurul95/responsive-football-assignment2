@@ -1,0 +1,37 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Common Part */
+body {
+    Width: 1440px;
+    Height: 3750px;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* Header Style */
+.header-part {
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+
+}
+
+
+.header-part h1 {
+    color: #FFFFFF;
+    size: 64px;
+    line-height: 80px;
+    text-align: left;
+    width: 485px;
+    height: 230px;
+    margin-top: 207px;
+    margin-left: 156px;
+
+
+
+}
