@@ -14,14 +14,12 @@ body {
 
 /* Header Style */
 .header-part {
-    position: absolute;
     width: 1440px;
     height: 677px;
     background-color: #2D25A0;
     display: flex;
-
+    margin-bottom: 85px;
 }
-
 
 .header-part h1 {
     color: #FFFFFF;
@@ -41,5 +39,40 @@ body {
     height: 438px;
     margin-top: 153px;
     margin-left: 102px;
+}
 
+/* Players Style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    padding-left: 180px;
+    padding-right: 210px;
+    width: 1050px;
+    height: 474px;
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-details h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+
+.player-details p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px bold;
+    line-height: 26px;
+    width: 300px;
+    height: 104px;
+    color: #6C6C6C;
 }
