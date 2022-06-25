@@ -152,6 +152,13 @@ footer p {
 
     .hlights {
         margin-top: 5500px;
+        margin-left: 0%;
+    }
+
+    .match-image img {
+        width: 150px;
+        height: 200px;
+
     }
 
     footer {
@@ -171,6 +178,53 @@ footer p {
         justify-content: left;
         margin-left: 230px;
     }
+
+}
+
+/* Tablet Device Style */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .players {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 30%;
+        flex-direction: column;
+        padding-left: 0%;
+
+    }
+
+    .hlights {
+        margin-top: 2500px;
+        margin-left: 0%;
+
+    }
+
+    .match-image {}
+
+    footer {
+        margin-top: 100px;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 80px;
+    }
+
+    .match-image img {
+        width: 150px;
+        height: 200px;
+
+    }
+
+    .media-icon {
+        justify-content: left;
+        margin-left: 230px;
+    }
+
+    footer p {
+        font-weight: 100;
+        justify-content: left;
+        margin-left: 150px;
+    }
+
+
 
 
 
